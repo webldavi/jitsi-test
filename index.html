@@ -22,7 +22,13 @@
                     email: 'email@jitsiexamplemail.com',
                     displayName: 'John Doe'
                 },
-            lang: 'en'
+            lang: 'en',
+
+            devices: {
+                audioInput: '<deviceLabel>',
+                audioOutput: '<deviceLabel>',
+                videoInput: '<deviceLabel>'
+            },
         };
 
           const api = new JitsiMeetExternalAPI('meet.jit.si', options)
